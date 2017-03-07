@@ -12,7 +12,7 @@ class GroupsController < ApplicationController
   end
 
   def edit
-  end
+    end
 
   def new
     @group = Group.new
