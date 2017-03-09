@@ -13,7 +13,7 @@
 ActiveRecord::Schema.define(version: 20170309074123) do
 
   create_table "group_relationships", force: :cascade do |t|
-    t.integer  "grup_id"
+    t.integer  "group_id"
     t.integer  "user_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
